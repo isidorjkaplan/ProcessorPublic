@@ -1,5 +1,5 @@
 # Processor
-This is a repository for the final project of ECE243 where we are designing a 16-bit processor. Our final project includes a number of new memory-mapped hardware units, new instructions, and comprehensive software tha twas written for it. 
+Verilog 16-bit, 8-register, interrupt-enabled processor with a wide range of memory mapped I/O such as a VGA display and private timers. The processor can be synthethized on the DE1_SOC board or using the DESIM simulator.
 
 ## Disclaimer about Code / Academic Integrity
 Due to Academic Integrity concerns I have been requested to not share the actual source-code for the project. Although most of the content in this processor was above and beyond the course expectations (which were just to implement some of the basic instructions here) I cannot share the actual code for the processor to prevent students from committing academic integrity violations by copying it
