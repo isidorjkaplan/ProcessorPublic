@@ -20,7 +20,7 @@ sub | sub rX, #D | rX <- rX - #D | 011 1 XXX DDDDDDDDD  | Use the ALU to subtrac
 ld | ld rX, [rY] | rX <- [rY] | 100 0 XXX 000000 YYY | Reads from address rY and puts into rX
 pop | pop rX | sp <- rX <- [sp], sp++ | 100 1 XXX 000000 101 | Reads from address rY and puts into rX
 st | st rX, [rY] | [rY] <- rX | 101 0 XXX 000000 YYY | Stores rX into address rY
-push | push rX | sp--, [sp] <- rX | 100 1 XXX 000000 101 | Reads from address rY and puts into rX
+push | push rX | sp--, [sp] <- rX | 101 1 XXX 000000 101 | Reads from address rY and puts into rX
 and | and rX, rY | rX <- rX & rY | 110 0 XXX 000000 YYY | Bitwise & rX and rY
 and | and rX, #D | rX <- rX & #D | 110 1 XXX DDDDDDDDD  | Use the ALU to add rX to immediate data #D
 cmp | cmp rX, rY | Flags Updated | 111 0 XXX 000000 YYY  | Compare rX to rY
