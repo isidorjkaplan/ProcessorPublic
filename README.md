@@ -42,6 +42,7 @@ bic | bic rX, #D | rX <- rX & ~#D | 111 0 XXX 01 10 0 DDDD  | bic with immediate
 mvn | mvn rX, rY | rX <- ~rY | 111 0 XXX 01 11 00 YYY  | move logical negation of rY into rX
 mvn | mvn rX, #D | rX <- ~#D | 111 0 XXX 01 11 0 DDDD  | logical negation with immediate data, #D must be (any) power of 2 (#D will be inverted)
 
+
 ## Additional logical instructions
 Using a gap in the original instruction encoding, we added four new logical instructions to the processor. These are the OR, XOR, BIC, and MVN instructions.
 These instructions are encoded similarly to the shifting instructions, except that the 8th bit is a 0 instead of a 1.
