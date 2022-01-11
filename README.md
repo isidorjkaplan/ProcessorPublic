@@ -52,7 +52,8 @@ Note that for the MVN instruction, the immediate data will be logically negated 
 
 To use the logical instructions in a program, a modified version of the sbasm.py assembler is required, which can be found in this repository. 
 
-Here is a demo, which uses the additional logical instructions to implement our ARM lab 4 on our own enhanced processor. Whatever values are input on the switches, the hex displays are updated with the longest sequences of zeros, ones, and alternating zeros/ones in the switches:
+Here is a demo, which uses the additional logical instructions to implement our ARM lab 4 on our own enhanced processor. Whatever values are input on the switches, the hex displays are updated with the longest sequences of zeros, ones, and alternating zeros/ones in the switches:  
+
 ![](media/videos/Bit_Manip.gif)
 # Hardware Units
 ## Main Memory (0x0XXX)
