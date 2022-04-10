@@ -1,3 +1,6 @@
+# New Pipelined Version
+This repository is for a multi-cycle non-pipelined processor. I have since implemented a new 5-stage pipelined processor that uses the same assembly language. That can be found https://github.com/isidorjkaplan/PipelinedProcessor 
+
 # Processor
 Verilog 16-bit, 8-register, interrupt-enabled processor with a wide range of memory mapped I/O such as a VGA display and private timers. The processor can be synthethized on the DE1_SOC board or using the DESIM simulator.
 
